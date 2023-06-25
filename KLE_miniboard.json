@@ -1,0 +1,95 @@
+[
+  {
+    "name": "Miniboard"
+  },
+  [
+    {
+      "t": "#000000\n\n#b86f18\n#11bd81",
+      "fa": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    "\n\n1\n\n\n\n\n\n\nQ",
+    "\n\n2\n\n\n\n\n\n\nW",
+    {
+      "t": "#000000\n\n#b86f18"
+    },
+    "\n\n3\n\n\n\n\n\n\nE",
+    "\n\n4\n\n\n\n\n\n\nR",
+    "\n\n5\n\n\n\n\n\n\nT",
+    "\n\n6\n\n\n\n\n\n\nY",
+    "\n\n7\n\n\n\n\n\n\nU",
+    "\n\n8\n\n\n\n\n\n\nI",
+    "\n\n9\n\n\n\n\n\n\nO",
+    "\n\n10\n\n\n\n\n\n\nP"
+  ],
+  [
+    {
+      "t": "#000000\n\n#b86f18\n#11bd81"
+    },
+    "\n\nF1\n\n\n\n\n\n\nA",
+    "\n\nF2\n\n\n\n\n\n\nS",
+    "\n\nF3\n\n\n\n\n\n\nD",
+    {
+      "n": true
+    },
+    "\n\nF4\n\n\n\n\n\n\nF",
+    "\n\nF5\n\n\n\n\n\n\nG",
+    "\n\nF6\n\n\n\n\n\n\nH",
+    {
+      "n": true
+    },
+    "\n\nF7\n\n\n\n\n\n\nJ",
+    "\n\nF8\n\n\n\n\n\n\nK",
+    "\n\nF9\n\n\n\n\n\n\nL",
+    "\n\nF10\n\n\n\n\n\n\n;",
+    "\n\nBS\n\n\n\n\n\n\nDel"
+  ],
+  [
+    "\n\nF11\n\n\n\n\n\n\nZ",
+    "\n\n\"\n\n\n\n\n\n\nX",
+    {
+      "t": "#000000",
+      "a": 7
+    },
+    "C",
+    "V",
+    "B",
+    {
+      "t": "#000000\n\n#b86f18\n#11bd81",
+      "a": 4
+    },
+    "\n\n[\n\n\n\n\n\n\nN",
+    "\n\n]\n\n\n\n\n\n\nM",
+    "\n\n-\n\n\n\n\n\n\n,",
+    "\n\n=\n\n\n\n\n\n\n.",
+    "\n\n\\\n\n\n\n\n\n\n/",
+    "\n\nIns\n\n\n\n\n\n\nEnter"
+  ],
+  [
+    "\n\nF12\n\n\n\n\n\n\nShift",
+    {
+      "t": "#000000",
+      "a": 7
+    },
+    "Ctrl",
+    "Super",
+    "Alt",
+    {
+      "w": 2
+    },
+    "",
+    {
+      "t": "#000000\n\n#b86f18\n#11bd81",
+      "a": 4
+    },
+    "\n\nHome\n\n\n\n\n\n\n<i class='kb kb-Arrows-Left'></i>",
+    "\n\nPgDn\n\n\n\n\n\n\n<i class='kb kb-Arrows-Down'></i>",
+    "\n\nPgUp\n\n\n\n\n\n\n<i class='kb kb-Arrows-Up'></i>",
+    "\n\nEnd\n\n\n\n\n\n\n<i class='kb kb-Arrows-Right'></i>",
+    "\n\n~\n\n\n\n\n\n\nEsc"
+  ]
+]
