@@ -9,7 +9,7 @@
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
-      "pads": 0.8700000047683716,
+      "pads": 0.75,
       "tracks": 1.0,
       "vias": 0.8500000238418579,
       "zones": 0.6
@@ -18,9 +18,9 @@
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
-      "graphics": false,
+      "graphics": true,
       "keepouts": true,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": true,
       "pads": true,
       "text": false,
@@ -64,7 +64,7 @@
       35,
       36
     ],
-    "visible_layers": "ffcffcf_ffffffff",
+    "visible_layers": "ffcffff_ffffffff",
     "zone_display_mode": 1
   },
   "meta": {
