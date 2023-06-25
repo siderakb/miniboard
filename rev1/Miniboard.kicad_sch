@@ -1565,7 +1565,7 @@
   (symbol (lib_id "Device:R") (at 71.12 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1a91cd71-97a8-48cc-95cf-729142499e33)
-    (property "Reference" "R6" (at 73.66 168.91 0)
+    (property "Reference" "R5" (at 73.66 168.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 73.66 171.45 0)
@@ -1582,7 +1582,7 @@
     (instances
       (project "Miniboard"
         (path "/717fb49e-fed7-4c0b-8814-f6ed14872a26"
-          (reference "R6") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -1591,7 +1591,7 @@
   (symbol (lib_id "power:GND") (at 106.68 184.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1df5f136-809d-46f1-bc45-f6bfb3160b54)
-    (property "Reference" "#PWR04" (at 106.68 190.5 0)
+    (property "Reference" "#PWR021" (at 106.68 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 106.68 187.96 0)
@@ -1607,7 +1607,7 @@
     (instances
       (project "Miniboard"
         (path "/717fb49e-fed7-4c0b-8814-f6ed14872a26"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -1640,7 +1640,7 @@
   (symbol (lib_id "power:+5V") (at 71.12 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 22f1a536-3d4a-44cb-9642-5026c10c4f6c)
-    (property "Reference" "#PWR016" (at 71.12 170.18 0)
+    (property "Reference" "#PWR019" (at 71.12 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 71.12 162.56 0)
@@ -1656,7 +1656,7 @@
     (instances
       (project "Miniboard"
         (path "/717fb49e-fed7-4c0b-8814-f6ed14872a26"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -1665,7 +1665,7 @@
   (symbol (lib_id "power:VBUS") (at 217.17 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 23d1c745-e2a1-4d6e-ad36-4b42fc989aca)
-    (property "Reference" "#PWR01" (at 217.17 41.91 0)
+    (property "Reference" "#PWR02" (at 217.17 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 217.17 34.29 0)
@@ -1681,7 +1681,7 @@
     (instances
       (project "Miniboard"
         (path "/717fb49e-fed7-4c0b-8814-f6ed14872a26"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -1690,7 +1690,7 @@
   (symbol (lib_id "power:GND") (at 101.6 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 24c55ef3-b807-4652-a064-d72860dd3ba3)
-    (property "Reference" "#PWR010" (at 101.6 52.07 0)
+    (property "Reference" "#PWR07" (at 101.6 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 101.6 49.53 0)
@@ -1706,7 +1706,7 @@
     (instances
       (project "Miniboard"
         (path "/717fb49e-fed7-4c0b-8814-f6ed14872a26"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -1741,7 +1741,7 @@
   (symbol (lib_id "power:GND") (at 66.04 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2c881233-bfeb-4894-a98a-91e5a126ddfe)
-    (property "Reference" "#PWR09" (at 66.04 52.07 0)
+    (property "Reference" "#PWR06" (at 66.04 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 66.04 49.53 0)
@@ -1757,7 +1757,7 @@
     (instances
       (project "Miniboard"
         (path "/717fb49e-fed7-4c0b-8814-f6ed14872a26"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -1792,7 +1792,7 @@
   (symbol (lib_id "power:GND") (at 48.26 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2e23467b-fa82-4632-ab63-28f9e3075df4)
-    (property "Reference" "#PWR018" (at 48.26 102.87 0)
+    (property "Reference" "#PWR015" (at 48.26 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 48.26 100.33 0)
@@ -1808,7 +1808,7 @@
     (instances
       (project "Miniboard"
         (path "/717fb49e-fed7-4c0b-8814-f6ed14872a26"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -1817,7 +1817,7 @@
   (symbol (lib_id "power:GND") (at 54.61 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 407ef08d-042d-486a-ae79-aa79bfce43c3)
-    (property "Reference" "#PWR08" (at 54.61 52.07 0)
+    (property "Reference" "#PWR05" (at 54.61 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 54.61 49.53 0)
@@ -1833,7 +1833,7 @@
     (instances
       (project "Miniboard"
         (path "/717fb49e-fed7-4c0b-8814-f6ed14872a26"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -1842,7 +1842,7 @@
   (symbol (lib_id "power:+5V") (at 238.76 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4095887f-7fc4-41de-95e4-8e2f83bdbdab)
-    (property "Reference" "#PWR02" (at 238.76 41.91 0)
+    (property "Reference" "#PWR03" (at 238.76 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 238.76 34.29 0)
@@ -1858,7 +1858,7 @@
     (instances
       (project "Miniboard"
         (path "/717fb49e-fed7-4c0b-8814-f6ed14872a26"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -1867,7 +1867,7 @@
   (symbol (lib_id "power:GND") (at 81.28 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4752b6f3-bc50-4625-b3cc-f3f856f878ca)
-    (property "Reference" "#PWR021" (at 81.28 148.59 0)
+    (property "Reference" "#PWR018" (at 81.28 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 81.28 146.05 0)
@@ -1883,7 +1883,7 @@
     (instances
       (project "Miniboard"
         (path "/717fb49e-fed7-4c0b-8814-f6ed14872a26"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -1988,7 +1988,7 @@
   (symbol (lib_id "power:+5V") (at 82.55 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 780cbd73-d406-43eb-9805-34aac2a3a96a)
-    (property "Reference" "#PWR07" (at 82.55 40.64 0)
+    (property "Reference" "#PWR01" (at 82.55 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 82.55 33.02 0)
@@ -2004,7 +2004,7 @@
     (instances
       (project "Miniboard"
         (path "/717fb49e-fed7-4c0b-8814-f6ed14872a26"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -2013,7 +2013,7 @@
   (symbol (lib_id "power:GND") (at 115.57 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7c746fa6-09f4-4cd6-9394-970f24beb030)
-    (property "Reference" "#PWR011" (at 115.57 52.07 0)
+    (property "Reference" "#PWR08" (at 115.57 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 115.57 49.53 0)
@@ -2029,7 +2029,7 @@
     (instances
       (project "Miniboard"
         (path "/717fb49e-fed7-4c0b-8814-f6ed14872a26"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -2073,7 +2073,7 @@
   (symbol (lib_id "power:GND") (at 238.76 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8259891a-2ea4-410d-ba9e-73b4db2ea0cf)
-    (property "Reference" "#PWR03" (at 238.76 50.8 0)
+    (property "Reference" "#PWR04" (at 238.76 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 238.76 48.26 0)
@@ -2089,7 +2089,7 @@
     (instances
       (project "Miniboard"
         (path "/717fb49e-fed7-4c0b-8814-f6ed14872a26"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -2098,7 +2098,7 @@
   (symbol (lib_id "power:GND") (at 71.12 184.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 85faf63d-dacf-482b-95fa-37d914db9490)
-    (property "Reference" "#PWR017" (at 71.12 190.5 0)
+    (property "Reference" "#PWR020" (at 71.12 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 71.12 187.96 0)
@@ -2114,7 +2114,7 @@
     (instances
       (project "Miniboard"
         (path "/717fb49e-fed7-4c0b-8814-f6ed14872a26"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -2123,7 +2123,7 @@
   (symbol (lib_id "power:GND") (at 97.79 109.22 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 860649e2-4f2b-4ee4-92a8-49a355508aa0)
-    (property "Reference" "#PWR020" (at 104.14 109.22 0)
+    (property "Reference" "#PWR017" (at 104.14 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 102.87 109.22 90)
@@ -2139,7 +2139,7 @@
     (instances
       (project "Miniboard"
         (path "/717fb49e-fed7-4c0b-8814-f6ed14872a26"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -2247,7 +2247,7 @@
   (symbol (lib_id "MCU_Microchip_ATmega:ATmega32U4-A") (at 82.55 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 99425f49-939d-4560-a05f-941e94f497b2)
-    (property "Reference" "U2" (at 84.5059 139.7 0)
+    (property "Reference" "U1" (at 84.5059 139.7 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ATmega32U4-A" (at 84.5059 142.24 0)
@@ -2306,7 +2306,7 @@
     (instances
       (project "Miniboard"
         (path "/717fb49e-fed7-4c0b-8814-f6ed14872a26"
-          (reference "U2") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -2315,7 +2315,7 @@
   (symbol (lib_id "power:GND") (at 31.75 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9d5df718-3478-4e86-ad7f-72e41b7554b0)
-    (property "Reference" "#PWR014" (at 31.75 72.39 0)
+    (property "Reference" "#PWR011" (at 31.75 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 31.75 69.85 0)
@@ -2331,7 +2331,7 @@
     (instances
       (project "Miniboard"
         (path "/717fb49e-fed7-4c0b-8814-f6ed14872a26"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -2340,7 +2340,7 @@
   (symbol (lib_id "power:GND") (at 191.77 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b6340a1a-dbb2-418b-8bc0-1cbe1a4606cd)
-    (property "Reference" "#PWR05" (at 191.77 82.55 0)
+    (property "Reference" "#PWR013" (at 191.77 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 191.77 80.01 0)
@@ -2356,7 +2356,7 @@
     (instances
       (project "Miniboard"
         (path "/717fb49e-fed7-4c0b-8814-f6ed14872a26"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -2425,7 +2425,7 @@
   (symbol (lib_id "power:GND") (at 49.53 63.5 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c8256fe6-94e5-4c71-8523-e7eb933627e5)
-    (property "Reference" "#PWR013" (at 55.88 63.5 0)
+    (property "Reference" "#PWR010" (at 55.88 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 54.61 63.5 90)
@@ -2441,7 +2441,7 @@
     (instances
       (project "Miniboard"
         (path "/717fb49e-fed7-4c0b-8814-f6ed14872a26"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -2485,7 +2485,7 @@
   (symbol (lib_id "Device:R") (at 106.68 180.34 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d9f2704f-db38-46e0-b7f7-29cba498b7af)
-    (property "Reference" "R5" (at 109.22 179.07 0)
+    (property "Reference" "R6" (at 109.22 179.07 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "5.1k" (at 109.22 181.61 0)
@@ -2511,7 +2511,7 @@
     (instances
       (project "Miniboard"
         (path "/717fb49e-fed7-4c0b-8814-f6ed14872a26"
-          (reference "R5") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -2520,7 +2520,7 @@
   (symbol (lib_id "power:GND") (at 59.69 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid db27f291-2fde-4f0d-9bc0-8db3dea0a460)
-    (property "Reference" "#PWR019" (at 59.69 102.87 0)
+    (property "Reference" "#PWR016" (at 59.69 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 59.69 100.33 0)
@@ -2536,7 +2536,7 @@
     (instances
       (project "Miniboard"
         (path "/717fb49e-fed7-4c0b-8814-f6ed14872a26"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -2545,7 +2545,7 @@
   (symbol (lib_id "power:GND") (at 199.39 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dba040a9-4522-4b76-b480-cc15bca0da6f)
-    (property "Reference" "#PWR06" (at 199.39 82.55 0)
+    (property "Reference" "#PWR014" (at 199.39 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 199.39 80.01 0)
@@ -2561,7 +2561,7 @@
     (instances
       (project "Miniboard"
         (path "/717fb49e-fed7-4c0b-8814-f6ed14872a26"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -2683,7 +2683,7 @@
   (symbol (lib_id "power:+5V") (at 66.04 76.2 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f95d2414-2c79-4231-a3c6-37f9e7073953)
-    (property "Reference" "#PWR015" (at 69.85 76.2 0)
+    (property "Reference" "#PWR012" (at 69.85 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 60.96 76.2 90)
@@ -2699,7 +2699,7 @@
     (instances
       (project "Miniboard"
         (path "/717fb49e-fed7-4c0b-8814-f6ed14872a26"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -2708,7 +2708,7 @@
   (symbol (lib_id "power:GND") (at 128.27 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ff9c4e5e-15f0-402f-be9a-0474b2d36d2f)
-    (property "Reference" "#PWR012" (at 128.27 52.07 0)
+    (property "Reference" "#PWR09" (at 128.27 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 128.27 49.53 0)
@@ -2724,7 +2724,7 @@
     (instances
       (project "Miniboard"
         (path "/717fb49e-fed7-4c0b-8814-f6ed14872a26"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
